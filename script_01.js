@@ -12,7 +12,6 @@
 // console.log("Hi");
 // console.log(firstName);
 
-
 /***** 02 Deklaration + Wertzuweisung I *******/
 
 // let firstName; // Deklaration (Definition)
@@ -49,7 +48,22 @@
 // let test = "Max"; // Deklaration und Wertzuweisung
 // test = "Maxine"
 
-const test = "Max";
+// const test = "Max";
 // test = "Maxine"
 
-console.log("Inhalt: " + test);
+// console.log("Inhalt: " + test);
+
+/***** 04 Beispiel - Berechnung *******/
+
+// Deklarieren //
+const birthYearJohn = 2000;
+const birthYearMark = 1990;
+let ageJohn, ageMark;
+
+ageJohn = 2023 - birthYearJohn,
+ageMark = 2023 - birthYearMark
+
+
+// Ausgabe //
+console.log("ageJohn: " + ageJohn);
+console.log("ageMark: " + ageMark);
