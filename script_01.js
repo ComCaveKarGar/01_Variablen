@@ -36,10 +36,20 @@
 
 /* JS ist eine untypisierte Sprache! | untyped */
 
-let test;
-test = "max"; // string
-test = 2; // number
-test = true; // boolean
+// let test;
+// test = "max"; // string
+// test = 2; // number
+// test = true; // boolean
 
-console.log("Datentyp: " + typeof test);
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test);
+
+/***** 03a Konstanten *******/
+
+// let test = "Max"; // Deklaration und Wertzuweisung
+// test = "Maxine"
+
+const test = "Max";
+// test = "Maxine"
+
 console.log("Inhalt: " + test);
