@@ -70,16 +70,16 @@
 
 
 // Deklarieren //
-const birthYearJohn = 2000;
-const birthYearMark = 1990;
+const birthYearJohn = 1983;
+const birthYearMark = 2009;
 let ageJohn, ageMark;
 
 let date = new Date();
 let year = date.getFullYear();
 // console.log(date.getFullYear());
 
-ageJohn = year - birthYearJohn,
-ageMark = year - birthYearMark
+ageJohn = year - birthYearJohn;
+ageMark = year - birthYearMark;
 
 
 // // Ausgabe //
