@@ -15,12 +15,31 @@
 
 /***** 02 Deklaration + Wertzuweisung I *******/
 
-let firstName; // Deklaration (Definition)
-firstName = "Max"; // Wertzuweisung
-console.log(firstName); // Ausgabe
+// let firstName; // Deklaration (Definition)
+// firstName = "Max"; // Wertzuweisung
+// console.log(firstName); // Ausgabe
 
-let familyName;
-familyName = "Mütze";
-console.log(familyName);
+// let familyName;
+// familyName = "Mütze";
+// console.log(familyName);
 
-console.log(firstName, familyName)
+/***** 03 Deklaration + Wertzuweisung I *******/
+
+// let firstName, familyName
+
+// firstName = prompt("Bitte Vornamen eingeben:");
+// familyName = prompt("Bitte Nachnamen eingeben:");
+
+// console.log(firstName + " " + familyName);
+
+// console.log(typeof firstName);
+
+/* JS ist eine untypisierte Sprache! | untyped */
+
+let test;
+test = "max"; // string
+test = 2; // number
+test = true; // boolean
+
+console.log("Datentyp: " + typeof test);
+console.log("Inhalt: " + test);
